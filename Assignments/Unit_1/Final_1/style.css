@@ -3,15 +3,27 @@
 html body {
 	margin: 0;
 	padding: 0;
-	/*Remove this background-color! It is here to make sure that the css and html are linked.*/
-	background-color: #5abaf3;
+	background-color: #ffffff;
+	font-family: helvetica;
 }
-
-/*Delete everything below this line! */
-
-h1 {
+h1 { color: #ffffff;
 	text-align: center;
-	padding-top: 50px;
-	color: white;
-	font-size: 100px;
+	font-size: 150px;
+	text-shadow: 2px 2px #666666;
 }
+h2 { padding-left: 10px;
+	padding-top: 10px;
+	color: 000000;
+	text-align: center;
+}
+p { padding-left: 10px;
+	padding: 10px;
+	color: ccccccc;
+	text-align: justify;
+}
+.bkgrnd {
+	background-image: url(https://s-media-cache-ak0.pinimg.com/originals/81/1b/8e/811b8e7716822359e3a13ef4855e0142.jpg);
+	height: 500px;
+	vertical-align: middle;
+}
+
